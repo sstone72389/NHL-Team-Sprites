@@ -1,0 +1,201 @@
+.boston-bruins, .buffalo-sabres, .carolina-hurricanes, .columbus-blue-jackets, .detroit-red-wings, .florida-panthers, .montreal-canadiens, .new-jersey-devils, .new-york-islanders, .new-york-rangers, .ottawa-senators, .philadelphia-flyers, .pittsburgh-penguins, .tampa-bay-lightning, .toronto-maple-leafs, .washington-capitals, .eastern-conference-logo, .western-conference-logo, .anaheim-ducks, .arizona-coyotes, .calgary-flames, .chicago-blackhawks, .colorado-avalanche, .dallas-stars, .edmonton-oilers, .los-angeles-kings, .minnesota-wild, .nashville-predators, .san-jose-sharks, .st-louis-blues, .vancouver-canucks, .vegas-golden-knights, .winnipeg-jets {
+  background: url(sprites.png) no-repeat;
+}
+
+.eastern-conference-logo {
+  background-position: 0 0;
+  width: 70px;
+  height: 50px;
+}
+
+.boston-bruins {
+  background-position: -85px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.buffalo-sabres {
+  background-position: -160px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.carolina-hurricanes {
+  background-position: -235px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.columbus-blue-jackets {
+  background-position: -310px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.detroit-red-wings {
+  background-position: -385px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.florida-panthers {
+  background-position: -460px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.montreal-canadiens {
+  background-position: -535px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.new-jersey-devils {
+  background-position: -610px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.new-york-islanders {
+  background-position: -685px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.new-york-rangers {
+  background-position: -760px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.ottawa-senators {
+  background-position: -835px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.philadelphia-flyers {
+  background-position: -910px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.pittsburgh-penguins {
+  background-position: -985px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.tampa-bay-lightning {
+  background-position: -1060px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.toronto-maple-leafs {
+  background-position: -1135px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.washington-capitals {
+  background-position: -1210px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.western-conference-logo {
+  background-position: -38px -75px;
+  width: 70px;
+  height: 50px;
+}
+
+.anaheim-ducks {
+  background-position: -123px -75px;
+  width: 50px;
+  height: 50px;
+}
+
+.arizona-coyotes {
+  background-position: -198px -75px;
+  width: 50px;
+  height: 50px;
+}
+
+.calgary-flames {
+  background-position: -273px -75px;
+  width: 50px;
+  height: 50px;
+}
+
+.chicago-blackhawks {
+  background-position: -348px -75px;
+  width: 50px;
+  height: 50px;
+}
+
+.colorado-avalanche {
+  background-position: -423px -75px;
+  width: 50px;
+  height: 50px;
+}
+
+.dallas-stars {
+  background-position: -498px -75px;
+  width: 50px;
+  height: 50px;
+}
+
+.edmonton-oilers {
+  background-position: -573px -75px;
+  width: 50px;
+  height: 50px;
+}
+
+.los-angeles-kings {
+  background-position: -648px -75px;
+  width: 50px;
+  height: 50px;
+}
+
+.minnesota-wild {
+  background-position: -723px -75px;
+  width: 50px;
+  height: 50px;
+}
+
+.nashville-predators {
+  background-position: -798px -75px;
+  width: 50px;
+  height: 50px;
+}
+
+.san-jose-sharks {
+  background-position: -873px -75px;
+  width: 50px;
+  height: 50px;
+}
+
+.st-louis-blues {
+  background-position: -948px -75px;
+  width: 50px;
+  height: 50px;
+}
+
+.vancouver-canucks {
+  background-position: -1023px -75px;
+  width: 50px;
+  height: 50px;
+}
+
+.vegas-golden-knights {
+  background-position: -1098px -75px;
+  width: 50px;
+  height: 50px;
+}
+
+.winnipeg-jets {
+  background-position: -1173px -75px;
+  width: 50px;
+  height: 50px;
+}
