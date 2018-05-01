@@ -1,13 +1,18 @@
-body {
-  max-width: 1000px;
-  text-align: center;
-  margin: 0 auto;
+html {
+  width: 100%;
+  /* margin: 0 auto; */
 }
 
 /* **********DESKTOP STYLES********** */
 
+.sprite-center {
+  display: flex;
+  justify-content: center;
+}
+
 .sprite-container {
   padding-top: 50px;
+  /* margin-left: 25%; */
 }
 
 .nhl-row-1 {
@@ -17,8 +22,6 @@ body {
 
 .nhl-row-2 {
   width: 755px;
-  /* padding-top: 20px; */
-  /* padding-left: 40px; */
 }
 
 .sprite {
@@ -250,22 +253,11 @@ body {
 /* *********** BEGIN MOBILE STYLES *********** */
 .mobile-sprite-container {
   margin-top: 50px;
-  margin-left: 33%;
   width: 250px;
-  padding-top: 150px;
 }
 .mobile-sprite-container-inside {
   width: 250px;
 }
-
-/* .nhl-row-1 {
-  max-width: 755px;
-  padding-bottom: 180px
-}
-
-.nhl-row-2 {
-  max-width: 1000px;
-} */
 
 .mobile-sprite {
   cursor: pointer;
@@ -492,3 +484,22 @@ body {
 }
 
 /* *********** END MOBILE STYLES *********** */
+
+/* Media query for hiding and displaying sprites */
+@media screen and (max-width: 767px) {
+  .sprite-container {
+    display: none;
+  }
+  .mobile-sprite-container {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sprite-container {
+    display: block;
+  }
+  .mobile-sprite-container {
+    display: none;
+  }
+}
