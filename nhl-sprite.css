@@ -4,6 +4,8 @@ body {
   margin: 0 auto;
 }
 
+/* **********DESKTOP STYLES********** */
+
 .sprite-container {
   padding-top: 50px;
 }
@@ -240,3 +242,250 @@ body {
   width: 50px;
   height: 50px;
 }
+
+/* *********** END DESKTOP STYLES *********** */
+
+
+
+/* *********** BEGIN MOBILE STYLES *********** */
+.mobile-sprite-container {
+  margin-top: 50px;
+  margin-left: 33%;
+  max-width: 250px;
+  padding-top: 150px;
+}
+
+/* .nhl-row-1 {
+  max-width: 755px;
+  padding-bottom: 180px
+}
+
+.nhl-row-2 {
+  max-width: 1000px;
+} */
+
+.mobile-sprite {
+  cursor: pointer;
+  float: left;
+  padding-top: 10px;
+  padding-right: 20px;
+  background: url("nhl-team-sprite-mobile.png") no-repeat;
+}
+
+.mobile-sprite:hover {
+  opacity: .7;
+}
+
+.mobile-sprite.eastern-conference-logo:hover {
+  opacity: 1.0;
+}
+
+.mobile-sprite.western-conference-logo:hover {
+  opacity: 1.0;
+}
+
+.mobile-sprite.eastern-conference-logo {
+  cursor: default;
+  background-position: -38px 0;
+  margin-left: 25px;
+  width: 173px;
+  height: 125px;
+}
+
+.mobile-sprite.mobile-boston-bruins {
+  background-position: 0 -145px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-buffalo-sabres {
+  background-position: 0 -265px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-carolina-hurricanes {
+  background-position: -150px -145px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-columbus-blue-jackets {
+  background-position: -150px -265px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-detroit-red-wings {
+  background-position: 0 -385px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-florida-panthers {
+  background-position: 0 -505px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-montreal-canadiens {
+  background-position: 0 -625px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-new-jersey-devils {
+  background-position: -150px -385px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-new-york-islanders {
+  background-position: -150px -505px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-new-york-rangers {
+  background-position: -150px -625px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-ottawa-senators {
+  background-position: 0 -745px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-philadelphia-flyers {
+  background-position: -150px -745px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-pittsburgh-penguins {
+  background-position: -150px -865px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-tampa-bay-lightning {
+  background-position: 0 -865px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-toronto-maple-leafs {
+  background-position: 0 -985px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-washington-capitals {
+  background-position: -150px -985px;
+  padding-right: 0;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.western-conference-logo {
+  cursor: default;
+  background-position: -36px -1105px;
+  margin-left: 25px;
+  margin-top: 50px;
+  width: 177px;
+  height: 125px;
+}
+
+.mobile-sprite.mobile-anaheim-ducks {
+  background-position: 0 -1250px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-arizona-coyotes {
+  background-position: 0 -1370px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-calgary-flames {
+  background-position: 0 -1490px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-chicago-blackhawks {
+  background-position: -150px -1250px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-colorado-avalanche {
+  background-position: -150px -1370px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-dallas-stars {
+  background-position:-150px -1490px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-edmonton-oilers {
+  background-position: 0 -1610px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-los-angeles-kings {
+  background-position: 0 -1730px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-minnesota-wild {
+  background-position: -150px -1610px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-nashville-predators {
+  background-position: -150px -1730px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-san-jose-sharks {
+  background-position: 0 -1850px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-st-louis-blues {
+  background-position: -150px -1850px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-vancouver-canucks {
+  background-position: 0 -1970px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-vegas-golden-knights {
+  background-position: 0 -2090px;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-sprite.mobile-winnipeg-jets {
+  background-position: -150px -1970px;
+  width: 100px;
+  height: 100px;
+}
+
+/* *********** END MOBILE STYLES *********** */
