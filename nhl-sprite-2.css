@@ -8,34 +8,30 @@ body {
   padding-top: 100px;
 }
 
-/* .boston-bruins, .buffalo-sabres, .carolina-hurricanes, .columbus-blue-jackets, .detroit-red-wings, .florida-panthers, .montreal-canadiens, .new-jersey-devils, .new-york-islanders, .new-york-rangers, .ottawa-senators, .philadelphia-flyers, .pittsburgh-penguins, .tampa-bay-lightning, .toronto-maple-leafs, .washington-capitals, .eastern-conference-logo, .western-conference-logo, .anaheim-ducks, .arizona-coyotes, .calgary-flames, .chicago-blackhawks, .colorado-avalanche, .dallas-stars, .edmonton-oilers, .los-angeles-kings, .minnesota-wild, .nashville-predators, .san-jose-sharks, .st-louis-blues, .vancouver-canucks, .vegas-golden-knights, .winnipeg-jets {
-  background: url(sprites.png) no-repeat;
-} */
-
-
 .nhl-row-1 {
-width: 1260px;
-padding-bottom: 50px
+  width: 1000px;
+  padding-bottom: 50px
 }
 
 .nhl-row-2 {
+  width: 1000px;
   padding-top: 20px;
   padding-left: 40px;
-  width: 1260px
 }
 
 .sprite {
   cursor: pointer;
   float: left;
-  padding-right:20px;
+  padding-right: 20px;
   background: url("nhl-sprite.png") no-repeat;
 }
+
 .sprite:hover {
-    opacity: .7;
+  opacity: .7;
 }
 
 .sprite.eastern-conference-logo {
-  padding-right:15px;
+  padding-right: 15px;
   background-position: 0 0;
   width: 70px;
   height: 50px;
@@ -236,27 +232,23 @@ padding-bottom: 50px
 }
 
 @media screen and (max-width: 767px) {
-  .sprite-container{
+  .sprite-container {
     margin-left: 33%;
-
   }
-    .nhl-row-1 {
+  .nhl-row-1 {
     width: 315px;
     padding-bottom: 50px
-    }
-
-    .nhl-row-2 {
-      clear:both;
-      padding-top: 20px;
-      width: 315px;
-      margin-left: -40px;
-    }
-
-    .sprite.eastern-conference-logo {
-      display: none;
-    }
-
-    .sprite.western-conference-logo {
-      display: none;
-    }
   }
+  .nhl-row-2 {
+    clear: both;
+    padding-top: 20px;
+    width: 315px;
+    margin-left: -40px;
+  }
+  .sprite.eastern-conference-logo {
+    display: none;
+  }
+  .sprite.western-conference-logo {
+    display: none;
+  }
+}
