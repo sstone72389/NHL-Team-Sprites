@@ -1,5 +1,5 @@
 body {
-  max-width: 755px;
+  max-width: 1000px;
   text-align: center;
   margin: 0 auto;
 }
@@ -11,12 +11,12 @@ body {
 }
 
 .nhl-row-1 {
-  max-width: 755px;
+  width: 755px;
   padding-bottom: 180px
 }
 
 .nhl-row-2 {
-  max-width: 1000px;
+  width: 755px;
   /* padding-top: 20px; */
   /* padding-left: 40px; */
 }
@@ -251,8 +251,11 @@ body {
 .mobile-sprite-container {
   margin-top: 50px;
   margin-left: 33%;
-  max-width: 250px;
+  width: 250px;
   padding-top: 150px;
+}
+.mobile-sprite-container-inside {
+  width: 250px;
 }
 
 /* .nhl-row-1 {
