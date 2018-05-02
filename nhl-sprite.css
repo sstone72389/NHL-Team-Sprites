@@ -1,21 +1,17 @@
 /* **********DESKTOP STYLES********** */
-
-.sprite-center {
-  display: flex;
-  justify-content: center;
-}
-
 .sprite-container {
   padding-top: 50px;
   /* margin-left: 25%; */
 }
 
 .nhl-row-1 {
+  margin: 0 auto;
   width: 755px;
   padding-bottom: 180px
 }
 
 .nhl-row-2 {
+  margin: 0 auto;
   width: 755px;
 }
 
@@ -247,10 +243,8 @@
 
 /* *********** BEGIN MOBILE STYLES *********** */
 .mobile-sprite-container {
+  margin: 0 auto;
   margin-top: 50px;
-  width: 250px;
-}
-.mobile-sprite-container-inner {
   width: 250px;
 }
 
